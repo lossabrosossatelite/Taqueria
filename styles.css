@@ -98,6 +98,19 @@ ul li:hover {
     color: black;
 }
 
+.promo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.promo-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
 /* Estilo del pie de página */
 footer {
     text-align: center;
