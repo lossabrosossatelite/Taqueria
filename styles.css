@@ -163,3 +163,9 @@ ul li {
 .social-media a:hover {
     color: #0056b3;
 }
+
+
+header .logo {
+    max-width: 150px; /* Ajusta el tamaño del logo en pantallas pequeñas */
+    height: auto;
+}
