@@ -30,11 +30,6 @@ header {
 
 /* Estilo del logotipo */
 .logo {
-    position: absolute; /* Posiciona el logotipo dentro del header */
-    top: -10px; /* Ajusta la distancia desde la parte superior */
-    right: 5px; /* Ajusta la distancia desde la parte derecha */
-    width: 220px; /* Ajusta el tamaño del logotipo */
-    height: auto; /* Mantiene la proporción del logotipo */
     max-width: 150px; /* Ajusta el tamaño del logo en pantallas pequeñas */
     height: auto;
 
