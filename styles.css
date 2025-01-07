@@ -231,11 +231,11 @@ ul li {
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 768px) {
     .social-media ul {
-        gap: 5px; /* Reduce el espacio entre íconos en dispositivos pequeños */
+        gap: 3px; /* Reduce el espacio entre íconos en dispositivos pequeños */
     }
 
     .social-media li {
-        flex: 1 1 calc(33.33% - 5px); /* Cada ícono ocupa un tercio del ancho en pantallas pequeñas */
+        flex: 1 1 calc(30.33% - 3px); /* Cada ícono ocupa un tercio del ancho en pantallas pequeñas */
     }
 
     .social-media a i {
@@ -245,7 +245,7 @@ ul li {
 
 @media (max-width: 480px) {
     .social-media li {
-        flex: 1 1 calc(50% - 5px); /* Cada ícono ocupa la mitad del ancho en pantallas muy pequeñas */
+        flex: 1 1 calc(40% - 3px); /* Cada ícono ocupa la mitad del ancho en pantallas muy pequeñas */
     }
 
     .social-media a i {
