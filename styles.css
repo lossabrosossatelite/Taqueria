@@ -41,7 +41,7 @@ header {
 .video, iframe {
     display: block;
     margin: 20px auto; /* Centra el video */
-    width: 500px; /* Escala el video al tamaño del contenedor */
+    width: 300px; /* Escala el video al tamaño del contenedor */
     height: 300px; /* Mantiene la proporción */
     border: 3px solid orange; /* Opcional: un borde para el video */
     border-radius: 10px; /* Opcional: esquinas redondeadas */
