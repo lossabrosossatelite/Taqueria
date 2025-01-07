@@ -184,3 +184,71 @@ ul li {
         font-size: 1.5em; /* Ajusta el tamaño de los íconos */
     }
 }
+/* Redes sociales */
+.social-media {
+    text-align: center;
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+
+.social-media ul {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los íconos salten a la siguiente fila si no hay espacio */
+    justify-content: center;
+    gap: 10px; /* Espacio entre los íconos */
+    padding: 0;
+    margin: 0 auto;
+    max-width: 100%; /* Asegura que no exceda el ancho de la página */
+    list-style: none;
+}
+
+.social-media li {
+    margin: 0;
+    flex: 1 1 calc(25% - 10px); /* Cada ícono ocupa el 25% del ancho con espacio entre ellos */
+    max-width: 50px; /* Limita el tamaño máximo del ícono */
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #d9534f;
+}
+
+.social-media a i {
+    font-size: 1.8em; /* Tamaño del ícono */
+    margin-bottom: 5px;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .social-media ul {
+        gap: 5px; /* Reduce el espacio entre íconos en dispositivos pequeños */
+    }
+
+    .social-media li {
+        flex: 1 1 calc(33.33% - 5px); /* Cada ícono ocupa un tercio del ancho en pantallas pequeñas */
+    }
+
+    .social-media a i {
+        font-size: 1.5em; /* Ajusta el tamaño del ícono */
+    }
+}
+
+@media (max-width: 480px) {
+    .social-media li {
+        flex: 1 1 calc(50% - 5px); /* Cada ícono ocupa la mitad del ancho en pantallas muy pequeñas */
+    }
+
+    .social-media a i {
+        font-size: 1.2em; /* Reduce aún más el tamaño del ícono */
+    }
+}
