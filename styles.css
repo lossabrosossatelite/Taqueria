@@ -15,7 +15,7 @@ body {
 .container {
     width: 90%;
     max-width: 1200px;
-    background: #2e31e0; /* Fondo negro dentro del marco */
+    background: #141414; /* Fondo negro dentro del marco */
     border: 5px solid orange; /* Marco naranja */
     padding: 20px;
     /*box-shadow: 0 0 10px rgba(255, 165, 0, 0.8); /* Sombra naranja */
@@ -114,7 +114,7 @@ ul li {
 /* Ajustes responsivos con media queries */
 @media (max-width: 768px) {
     header nav {
-        flex-direction: column; /* Los enlaces se apilan en dispositivos pequeños */
+        flex-direction: row; /* Los enlaces se apilan en dispositivos pequeños */
     }
 
     .logo {
@@ -144,11 +144,11 @@ ul li {
     }
 
     .social-media li {
-        flex: 1 1 calc(30.33% - 3px); /* Cada ícono ocupa un tercio del ancho en pantallas pequeñas */
+        flex: 1 1 calc(30.33% - 5px); /* Cada ícono ocupa un tercio del ancho en pantallas pequeñas */
     }
 
     .social-media a i {
-        font-size: 1.5em; /* Ajusta el tamaño del ícono */
+        font-size: 1.8em; /* Ajusta el tamaño del ícono */
     }
 }
 
