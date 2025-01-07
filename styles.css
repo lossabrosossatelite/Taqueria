@@ -58,7 +58,7 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-header .logo {
+.logo {
     max-width: 150px; /* Ajusta el tamaño del logo en pantallas pequeñas */
     height: auto;
 }
