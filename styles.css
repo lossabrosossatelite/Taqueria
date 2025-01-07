@@ -161,4 +161,26 @@ ul li {
 .social-media a:hover {
     color: #0056b3;
 }
+/* Ajustes responsivos con media queries */
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column; /* Los enlaces se apilan en dispositivos pequeños */
+    }
 
+    .logo {
+        max-width: 120px; /* Reduce el tamaño del logo */
+    }
+
+    #about ul {
+        max-width: 100%; /* Permite que el texto ocupe todo el ancho disponible */
+        padding: 0 10px;
+    }
+
+    #services ul li {
+        font-size: 0.9em; /* Reduce el tamaño de los elementos del menú */
+    }
+
+    .social-media a i {
+        font-size: 1.5em; /* Ajusta el tamaño de los íconos */
+    }
+}
