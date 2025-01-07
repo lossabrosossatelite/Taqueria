@@ -58,6 +58,11 @@ header nav a:hover {
     text-decoration: underline;
 }
 
+header .logo {
+    max-width: 150px; /* Ajusta el tamaño del logo en pantallas pequeñas */
+    height: auto;
+}
+
 /* Secciones */
 section {
     margin-bottom: 20px;
@@ -164,8 +169,3 @@ ul li {
     color: #0056b3;
 }
 
-
-header .logo {
-    max-width: 150px; /* Ajusta el tamaño del logo en pantallas pequeñas */
-    height: auto;
-}
