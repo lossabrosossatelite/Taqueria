@@ -137,7 +137,7 @@ ul li {
     padding: 0;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .social-media li {
@@ -177,11 +177,11 @@ ul li {
     }
 
     #services ul li {
-        font-size: 0.9em; /* Reduce el tamaño de los elementos del menú */
+        font-size: 0.6em; /* Reduce el tamaño de los elementos del menú */
     }
 
     .social-media a i {
-        font-size: 1.5em; /* Ajusta el tamaño de los íconos */
+        font-size: 1.2em; /* Ajusta el tamaño de los íconos */
     }
 }
 /* Redes sociales */
@@ -194,7 +194,7 @@ ul li {
     display: flex;
     flex-wrap: wrap; /* Permite que los íconos salten a la siguiente fila si no hay espacio */
     justify-content: center;
-    gap: 10px; /* Espacio entre los íconos */
+    gap: 8px; /* Espacio entre los íconos */
     padding: 0;
     margin: 0 auto;
     max-width: 100%; /* Asegura que no exceda el ancho de la página */
@@ -203,13 +203,13 @@ ul li {
 
 .social-media li {
     margin: 0;
-    flex: 1 1 calc(25% - 10px); /* Cada ícono ocupa el 25% del ancho con espacio entre ellos */
-    max-width: 50px; /* Limita el tamaño máximo del ícono */
+    flex: 1 1 calc(20% - 6px); /* Cada ícono ocupa el 25% del ancho con espacio entre ellos */
+    max-width: 40px; /* Limita el tamaño máximo del ícono */
 }
 
 .social-media a {
     text-decoration: none;
-    color: #333;
+    color: #a75509;
     font-weight: bold;
     display: flex;
     align-items: center;
