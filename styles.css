@@ -15,10 +15,10 @@ body {
 .container {
     width: 90%;
     max-width: 1200px;
-    background: #000; /* Fondo negro dentro del marco */
+    background: #2e31e0; /* Fondo negro dentro del marco */
     border: 5px solid orange; /* Marco naranja */
     padding: 20px;
-    box-shadow: 0 0 10px rgba(255, 165, 0, 0.8); /* Sombra naranja */
+    /*box-shadow: 0 0 10px rgba(255, 165, 0, 0.8); /* Sombra naranja */
 }
 
 /* Estilo para el encabezado */
