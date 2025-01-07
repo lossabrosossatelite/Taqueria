@@ -188,7 +188,7 @@ header {
 }
 
 header .logo {
-    max-width: 150px; /* Ajusta el tamaño del logo en pantallas pequeñas */
+    max-width: 100px; /* Ajusta el tamaño del logo en pantallas pequeñas */
     height: auto;
 }
 
