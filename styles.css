@@ -11,6 +11,20 @@ body {
     min-height: 100vh;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: orange; /* Cambia el color si lo prefieres */
+    font-size: 16px;
+}
+
+
 /* Contenedor con marco naranja */
 .container {
     width: 90%;
