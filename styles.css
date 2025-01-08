@@ -237,3 +237,17 @@ display: flex;
 .conteiner-esp{
     display: flex;
 }
+.map-section {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.map-section h2 {
+    font-size: 1.8rem;
+    color: #d9534f; /* Color del título */
+    margin-bottom: 10px;
+}
