@@ -215,7 +215,7 @@ ul li {
     display: flex;
     justify-content: center; /* Distribuye las imágenes */
     align-items: center;
-    gap: 10px; /* Espacio entre imágenes */
+    gap: 30px; /* Espacio entre imágenes */
     padding: 0 70px;
 }
 
