@@ -267,3 +267,12 @@ display: flex;
     color: #d9534f; /* Color del título */
     margin-bottom: 10px;
 }
+{
+    <style>
+    .fas, .fab {
+        color: #25D366; /* Color verde para WhatsApp */
+        margin-right: 8px; /* Espacio entre el ícono y el texto */
+    }
+</style>
+
+}
