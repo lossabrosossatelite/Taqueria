@@ -267,7 +267,7 @@ display: flex;
     color: #d9534f; /* Color del título */
     margin-bottom: 10px;
 }
-{
+
     <style>
     .fas, .fab {
         color: #25D366; /* Color verde para WhatsApp */
@@ -275,4 +275,3 @@ display: flex;
     }
 </style>
 
-}
